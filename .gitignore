@@ -1,0 +1,8 @@
+.idea
+
+*.log
+*.pot
+*.pyc
+local_settings.py
+*.sqlite
+database.db

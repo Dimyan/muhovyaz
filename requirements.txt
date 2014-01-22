@@ -1,0 +1,4 @@
+Django
+django-grappelli
+django-debug-toolbar
+south
