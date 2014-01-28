@@ -1,0 +1,9 @@
+# до установки библиотек
+sudo apt-get install libevent-dev
+sudo apt-get install python3-dev python-dev
+
+# Запуск интерактивного интерпритатора с выбранными настройками
+python manage.py shell --settings=muhovyaz.settings.local
+
+# Запуск сервера с выбранными настройками
+python manage.py runserver --settings=muhovyaz.settings.local
